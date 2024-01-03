@@ -15,8 +15,3 @@
     display: inline; /* Display list items horizontally */
     margin-right: 20px; /* Adjust as needed */
   }
-
-  h3 {
-    color: white;
-    margin: 0; /* Remove default margin for h3 */
-  }
