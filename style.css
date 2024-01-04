@@ -12,7 +12,10 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
   }
   
   h3 {
@@ -29,6 +32,10 @@
     text-align: center;
     justify-content: center;
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    width: 100%;
+    top: 70px;
+    z-index: 1000
   }
   
   nav.menu a {
@@ -47,11 +54,16 @@
   .container {
     display: flex;
   }
-  
-  img.left-image {
-    max-width: 40%;
+
+  .image-container {
+    display: flex;
+  }
+
+  .left-image,
+  .right-image {
+    max-width: 30%;
     height: auto;
-    margin-top: 30px;
+    margin-top: 200px;
     margin-left: 20px;
   }
 
@@ -59,7 +71,7 @@
     max-width: 40%;
     height: auto;
     margin-top: 450px;
-    margin-left: 400px;
+    margin-left: 0;
   }
 
   h4 {
@@ -73,10 +85,10 @@
   .subtitle {
     text-decoration: none;
     color: rgb(0, 0, 0);
-    padding: 10px;
+    padding: 8px;
     margin: 0 10px;
     font-size: 20px;
-    margin-left: 370px; 
+    margin-left: 0; 
   }
 
 .text-container {
