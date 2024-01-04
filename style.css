@@ -1,98 +1,87 @@
 @import url('https://fonts.cdnfonts.com/css/miniver');
 
-  body {
-    background-color: #b4b3b3;
-    margin: 0;
-  }
-  
-  nav.header {
-    background-color: #5A493D;
-    height: 70px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    position: fixed;
-    width: 100%;
-    top: 0;
-    z-index: 1000;
-  }
-  
-  h3 {
-    font-family: 'Miniver', sans-serif;
-    color: white;
-    margin: 0;
-    font-size: 40px;
-  }
-  
-  nav.menu {
-    background-color: rgba(255, 255, 255, 0.372);
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
-    position: fixed;
-    width: 100%;
-    top: 70px;
-    z-index: 1000
-  }
-  
-  nav.menu a {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    margin: 0 10px;
-    font-size: 25px;
-  }
-  
-  nav.menu a:hover {
-    background-color: #ddd;
-    color: black;
-  }
+body {
+  background-color: #b4b3b3;
+  margin: 0;
+  position: fixed;
+}
 
-  .container {
-    display: flex;
-  }
+nav.header {
+  background-color: #5A493D;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
 
-  .image-container {
-    display: flex;
-  }
+h3 {
+  font-family: 'Miniver', sans-serif;
+  color: white;
+  margin: 0;
+  font-size: 40px;
+}
 
-  .left-image,
-  .right-image {
-    max-width: 30%;
-    height: auto;
-    margin-top: 200px;
-    margin-left: 20px;
-  }
+nav.menu {
+  background-color: rgba(255, 255, 255, 0.372);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  width: 100%;
+  top: 70px;
+  z-index: 1000;
+}
 
-  .text-right {
-    max-width: 40%;
-    height: auto;
-    margin-top: 450px;
-    margin-left: 0;
-  }
+nav.menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0 10px;
+  font-size: 25px;
+}
 
-  h4 {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    margin: 0 10px;
-    font-size: 60px;
-  }
+nav.menu a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-  .subtitle {
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    padding: 8px;
-    margin: 0 10px;
-    font-size: 20px;
-    margin-left: 0; 
-  }
+.container-fluid {
+  display: flex;
+}
+
+.left-image {
+  max-width: 30%;
+  height: auto;
+  margin-top: 200px;
+  margin-left: 20px;
+}
 
 .text-container {
   max-width: 40%;
-  margin-top: 30px;
-  margin-left: 20px;
+  margin-top: 450px;
+}
+
+h4 {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  margin: 0 0 10px;
+  margin-left: 90px;
+  font-size: 70px;
+}
+
+.subtitle {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 8px;
+  margin: 0;
+  margin-left: 100px;
+  font-size: 30px;
 }
