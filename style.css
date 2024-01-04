@@ -95,5 +95,5 @@ h4 {
 }
 
 h2 {
-  font-family: 'Miniver', sans-serif;
+  font-family: 'Miniver', sans-serif !important;
 }
