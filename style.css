@@ -1,7 +1,7 @@
 @import url('https://fonts.cdnfonts.com/css/miniver');
 
 body {
-  background-color: #b4b3b3;
+  background-color: #a7a7a7 !important;
   margin: 0;
   position: fixed;
 }
@@ -23,7 +23,7 @@ h3 {
   font-family: 'Miniver', sans-serif;
   color: white;
   margin: 0;
-  font-size: 40px;
+  font-size: 40px !important;
 }
 
 nav.menu {
@@ -52,14 +52,14 @@ nav.menu a:hover {
   color: black;
 }
 
-.container-fluid {
+.container {
   display: flex;
 }
 
 .left-image {
-  max-width: 30%;
+  max-width: 40% !important;
   height: auto;
-  margin-top: 200px;
+  margin-top: 200px !important;
   margin-left: 20px;
 }
 
@@ -74,7 +74,7 @@ h4 {
   padding: 10px;
   margin: 0 0 10px;
   margin-left: 90px;
-  font-size: 70px;
+  font-size: 70px !important;
 }
 
 .subtitle {
@@ -83,5 +83,9 @@ h4 {
   padding: 8px;
   margin: 0;
   margin-left: 100px;
-  font-size: 30px;
+  font-size: 30px !important;
+}
+
+.container-fluid {
+  margin-top: 130px;
 }
