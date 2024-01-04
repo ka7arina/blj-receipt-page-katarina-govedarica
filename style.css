@@ -87,5 +87,13 @@ h4 {
 }
 
 .container-fluid {
-  margin-top: 130px;
+  margin-top: 160px;
+}
+
+.container-fluid-2 {
+  margin-top: 40px;
+}
+
+h2 {
+  font-family: 'Miniver', sans-serif;
 }
