@@ -21,7 +21,6 @@ nav.header,
 
 h3,
 .navbar-brand {
-  font-family: 'Miniver', sans-serif;
   color: white !important;
   margin: 0;
   font-size: 40px !important;
@@ -98,8 +97,7 @@ h4 {
   margin-top: 40px;
 }
 
-h2,
-.navbar-brand {
+h2 {
   font-family: 'Miniver', sans-serif !important;
 }
 
