@@ -1,12 +1,12 @@
 @import url('https://fonts.cdnfonts.com/css/miniver');
 
 body {
-  background-color: #a7a7a7 !important;
+  background-color: #ddd7dc !important;
   margin: 0;
 }
 
 nav.header {
-  background-color: #5A493D;
+  background-color: #df8ebb;
   height: 70px;
   display: flex;
   align-items: center;
@@ -26,12 +26,12 @@ h3 {
 }
 
 nav.menu {
-  background-color: rgb(198, 196, 196);
+  background-color: #df8ebb;
   display: flex;
   align-items: center;
   text-align: center;
   justify-content: center;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
   position: fixed;
   width: 100%;
   top: 70px;
@@ -112,4 +112,8 @@ h2 {
 
 .ingredient-title {
   text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
 }
